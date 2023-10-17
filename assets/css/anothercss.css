@@ -1,0 +1,489 @@
+/* .........  */
+
+.mainPop .popText h3.amberWine{
+    background-color:rgb(255, 126, 0);
+} 
+.mainPop .popText h3.redWine {
+    background-color: #F64041;
+} 
+.mainPop .popText h3.roseWine {
+    background-color:#F04884;
+}  
+.mainPop .popText h3.whiteWine {
+    background-color:#E8E7C9;
+    color:#777f85
+} 
+
+.popText h2 {
+    width:100%;
+    color:#343a3f;
+}  
+
+.recomendations {
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    font-style:italic;
+} 
+.recomendations  h4 {
+    margin-bottom:10px;
+}
+.recomendations ul {
+    display:flex;
+    flex-direction: column;
+    font-size:14px;
+    font-weight:bold;
+    width:100%;
+   
+}
+.recomendations ul li {
+    display:flex;
+    flex-direction: column;
+    font-size:14px;
+    color:#777f85;
+    text-transform: capitalize;
+    font-weight:bold;
+    width:100%;
+    margin-bottom:10px;
+} 
+.recomendations ul li span {
+    font-size:12px;
+    color:#777f85;
+    text-transform: capitalize;
+    font-weight: 400;
+    width:100%;
+    
+}
+.companyDiv {
+    display:flex;
+    width:100%;
+    justify-content: center;
+    margin-top:30px;
+    margin-bottom:30px;
+    flex-wrap:wrap;
+    position:absolute;
+}  
+.companyDiv button {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height: 70px;
+    background-color:#e3e3e3;
+    min-width:360px;
+    color:#fff;
+
+}
+.companyDiv button:first-child {
+    margin-right:40px;
+}
+.companyDiv button:hover {
+    background-color:rgb(246, 49, 56);
+    color:#fff;
+    transition: transform 0.9s ease-in-out;
+}
+.anaberikaWinery {
+    display:flex;
+    width:100%;
+   
+}  
+
+.informationArea .infoImage {
+    display:flex;
+    width:100%;
+    justify-content:space-between;
+    height: 400px;
+    margin-top:20px;
+    margin-bottom:20px;
+    
+}
+.informationArea .infoImage img {
+    display:flex;
+    width:48%;
+    height: 100%;
+    object-fit: cover;
+    min-width:320px;
+    
+} 
+.informationArea .infoImage.imageSto img {
+width:100%;
+
+}
+.listWhereBuy {
+    display:flex;
+    width:100%;
+    flex-wrap:wrap;
+    flex-direction:column;
+    
+
+} 
+.listWhereBuy li {
+    display:flex;
+    
+    align-items:center;
+    font-size:12px;
+    line-height: 17px;
+    color:#fff;
+    width:150px;
+    justify-content:center;
+
+} 
+.listWhereBuy li a {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    color:#fff;
+    font-size:12px;
+    background-color:#2E2F41;
+    margin-bottom:5px;
+    padding:5px;
+    
+} 
+
+.forReservation {
+    display:flex;
+    width:100%;
+    flex-wrap:wrap;
+    margin-top:40px;
+} 
+.forReservation  ul {
+    display:flex;
+    width:100%;
+    flex-wrap:wrap;
+} 
+.forReservation  ul  li {
+    margin-left:20px;
+} 
+.forReservation  ul  li:first-child {
+    margin-left:0;
+} 
+  ul  li a.facebookLogo {
+    display:flex;
+    padding:10px;
+   
+    background-color: #1877F2;
+    color:#fff;
+    border-radius:4px;
+    width:160px;
+    
+    
+}  
+.forReservation  ul  li a {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+ ul  li a.instagramLogo {
+    display:flex;
+    padding:10px;
+  
+    background-color:  #E1306C;
+    color:#fff;
+    border-radius:4px; 
+    width:160px;
+}  
+ ul  li a.whatsApp{
+    display:flex;
+    padding:10px;
+ 
+    background-color:  #25D366;
+    color:#fff;
+    width:160px;
+    border-radius:4px; 
+}  
+ ul  li a.gmail{
+    display:flex;
+    padding:10px;
+   
+    background-color: #34A853;
+    color:#fff;
+    border-radius:4px; 
+    width:160px;
+} 
+.forReservation  ul  li.forMobileNumber {
+    
+   
+    margin-top:14px;
+}
+.contactPage {
+    display:flex;
+    width:100%;
+
+    justify-content:space-between;
+    
+    flex-wrap:wrap;
+    background-color:#f8fafb;
+} 
+.contactPage .infoPage {
+    display:flex;
+    width:50%;
+    flex-direction:column;
+    align-items: center;
+    padding:70px;
+}  
+.contactPage .infoPage h4 {
+display:flex;
+margin-bottom:5px;
+font-size:30px;
+width:100%;
+
+
+}  
+.contactPage .infoPage h5 {
+display:flex;
+width:100%;
+}
+.contactPage .infoPage ul {
+    display:flex;
+    width:100%;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}  
+.contactPage .infoPage ul li {
+    
+    margin-top:20px;
+} 
+.contactPage .infoPage ul li:first-child {
+    margin-left:0;
+}
+.contactPage .infoPage ul li a {
+    display:flex;
+    width:160px;
+    height: 50px;
+    justify-content:center;
+    align-items:center;
+}
+  h2.contactAna {
+    display:flex;
+    width:100%;
+    margin-bottom:20px;
+    margin-top:50px;
+    text-transform: uppercase;
+}
+.contactPage .mapMape {
+    display:flex;
+  
+    
+} 
+.wineBars {
+    display:flex;
+    width:100%;
+    flex-direction:column;
+} 
+.wineBars ul {
+    display:flex;
+    width:100%;
+    flex-wrap:wrap;
+    margin-bottom:10px;
+    font-weight: bold;
+    color:#2E2F41;
+
+} 
+.wineBars ul li {
+    display:flex;
+    margin-left:20px;
+   
+}
+.wineBars ul li:first-child,.wineBars ul li:nth-child(2)  {
+    margin:0;
+} 
+.wineBars ul li a {
+    display:flex;
+    padding:6px;
+    padding-left:20px;
+    padding-right:20px;
+    border:1px solid #2E2F41;
+    color:#2E2F41;
+    margin-top:5px;
+    font-size: 12px;
+    font-weight: normal;
+
+} 
+.wineBars ul li:hover  a {
+  
+    background-color:#2E2F41;
+    color:#fff;
+}
+.wineBars ul li.titleWineBar{
+    display:Flex;
+    width:100%;
+}   
+.iframe {
+    display:Flex;
+    width:900px;
+     height:600px;
+} 
+.membershipTiers  {
+    display:flex;
+    width:100%;
+    margin-top:20px;
+    margin-bottom:10px;
+    font-style:italic;
+    
+}
+.membershipList {
+    display:flex;
+    width:100%;
+    flex-direction:column;
+    
+    
+} 
+.membershipList li {
+    display:flex;
+    text-align: start;
+    
+    width:100%;
+    font-weight: bold;
+    justify-content:flex-start;
+    margin-bottom:3px;
+    flex-direction: column;
+    margin-top:10px;
+
+    
+    
+   
+} 
+.membershipList li span {
+    display:flex;
+    width:100%;
+    font-weight: normal;
+    
+    
+} 
+.notAvaliable {
+    display:flex;
+    width:100%;
+    justify-content: center;
+    color: rgb(246, 49, 56);
+    margin-top:50px;
+    margin-bottom:50px;
+}
+@media screen and (max-width: 1200px) { 
+    .sectionWine {
+        justify-content:space-between;
+    }
+    .sectionWine .singleWine {
+        display:flex;
+        margin:0;
+        margin-bottom:20px;
+        min-width:318px;
+        
+    } 
+    .iframe {
+        display:Flex;
+        width:100%;
+        min-width:600px;
+         height:600px;
+    } 
+}
+@media screen and (max-width: 767px) {
+    .sectionWine.differentWine {
+        display:Flex;
+        justify-content:center;
+    }
+    .row {
+        display:flex;
+        justify-content: center;
+    } 
+    .single-welcome-hero-form {
+        margin:0;
+        padding:0;
+    }  
+    .single-welcome-hero-form input[type="text"] {
+        height: 50px;
+    }
+    .single-welcome-hero-form:first-child {
+        position:relative;
+        height: 50px;
+        margin-bottom:10px;
+
+    }  
+    .welcome-hero-form-icon {
+        top:12px;
+    } 
+    .single-welcome-hero-form  h3{
+        position:absolute;
+        left:0px;
+        top:0;
+        background-color:rgb(255, 126, 0);
+        height: 50px;
+        display:flex;
+        width:100px;
+        justify-content:center;
+        align-items:center;
+        color:#fff;  
+    } 
+    .welcome-hero-form {
+        height: initial;
+    }  
+    
+    /* content */ 
+    .row.singleRow {
+        display:flex;
+        width:100%;
+        justify-content:space;
+        flex-wrap:nowrap;
+    }  
+    .col-sm-7,.col-sm-5 {
+        width:50%;
+    } 
+    .explore-map-icon {
+        margin:0;
+    }
+}
+@media screen and (max-width: 670px) {
+    .informationArea .infoImage {
+        height: 800px;
+        flex-direction: column;
+    } 
+    .informationArea .infoImage img {
+    margin-bottom:20px;
+    width:100%;
+    height: 400px;
+    } 
+    .welcome-hero {
+        height: 600px;
+    }  
+    .forReservation  ul {
+        display:Flex;
+        flex-wrap:wrap;
+        justify-content: space-between;
+    }
+    .forReservation  ul li {
+        margin-bottom:10px;
+        margin:0;
+    } 
+    .forReservation  ul li  {
+        margin-bottom:10px;
+    } 
+    .sectionWine  {
+        justify-content: center;
+        flex-wrap:wrap;
+    } 
+    
+    
+} 
+@media screen and (max-width: 631px) {
+    .sectionWine  {
+        justify-content: center;
+        flex-wrap:wrap;
+    }  
+    .contactPage .infoPage ul li {
+        margin-left:0px;
+        margin-top:20px;
+    }  
+    .iframe {
+        display:Flex;
+        width:100%;
+        min-width:500px;
+         height:600px;
+    } 
+} 
+@media screen and (max-width: 631px) {  
+    .iframe {
+        display:Flex;
+        width:100%;
+        min-width:330px;
+         height:440px;
+    } 
+}
