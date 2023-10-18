@@ -265,7 +265,7 @@ padding-top:80px;
     background-size:75%
   }
   .singleWine:hover .wineInformation span.wineIreland {
-    background: url(../images/mainImages/Group\ 41289.png) no-repeat center center;
+    background: url(../images/mainImages/ireland.png) no-repeat center center;
     transform: rotate(0);
     background-size:75%
   }
@@ -284,7 +284,7 @@ padding-top:80px;
     width:18%;
     justify-content:center;
     align-items: center;
-    background: url(../images/mainImages/Group\ 41289.png) no-repeat center center;
+    background: url(../images/mainImages/ireland.png) no-repeat center center;
     background-size:75%;
     text-indent:-9999px;
     transform: rotate(0);
