@@ -1527,4 +1527,9 @@ img.vbox-figlio {
     transform: perspective(140px) rotateY(180deg);
     opacity: 0;
   }
+} 
+.anaberikaCounter {
+  display:flex;
+  width:100%;
+  justify-content: center;
 }
